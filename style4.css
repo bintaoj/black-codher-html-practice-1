@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+/* Moblie First */
+body {
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  background-color: gold;
+  color: olivedrab;
+}
+
+@media (min-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: #3d3b8e;
+    color: #fff;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    font-size: 26px;
+    background-color: #b0e298;
+    color: #000;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 50px;
+  }
+}
