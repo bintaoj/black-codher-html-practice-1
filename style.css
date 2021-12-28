@@ -6,6 +6,9 @@ body {
   background-color: gold;
   color: olivedrab;
 }
+p {
+  padding-left: 25px;
+}
 
 @media (min-width: 480px) {
   body {
@@ -36,4 +39,10 @@ body {
   h6 {
     font-size: 50px;
   }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
